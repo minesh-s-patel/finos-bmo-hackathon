@@ -11,6 +11,8 @@
     "fix": "gts fix",
     "prepare": "npm run compile",
     "pretest": "npm run compile",
-    "posttest": "npm run lint"
+    "posttest": "npm run lint",
+    "watch": "tsc -w",
+    "start": "tsc && node build/index.js"
   }
 }
