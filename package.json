@@ -13,6 +13,6 @@
     "pretest": "npm run compile",
     "posttest": "npm run lint",
     "watch": "tsc -w",
-    "start": "tsc && node build/index.js"
+    "exec": "tsc && node build/index.js"
   }
 }
