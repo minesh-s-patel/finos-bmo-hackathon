@@ -1,0 +1,30 @@
+{
+  "criteria": [
+    {
+      "asset": [
+        {
+          "collateralAssetType": [
+            {
+              "assetType": [
+                "CASH"
+              ]
+            }
+          ],
+          "denominatedCurrency": [
+            {
+              "value": "USD"
+            }
+          ]
+        }
+      ],
+      "treatment": {
+        "isIncluded": true,
+        "valuationTreatment": {
+          "haircutPercentage": [
+            0
+          ]
+        }
+      }
+    }
+  ]
+}

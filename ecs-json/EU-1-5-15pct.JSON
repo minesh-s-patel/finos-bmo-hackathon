@@ -1,0 +1,60 @@
+{
+  "criteria": [
+    {
+      "asset": [
+        {
+          "assetCountryOfOrigin": [
+            {
+              "value": "EU"
+            }
+          ],
+          "collateralAssetType": [
+            {
+              "assetType": [
+                "SECURITY"
+              ],
+              "securityType": [
+                "DEBT"
+              ]
+            }
+          ],
+          "maturityRange": {
+            "lowerBound": {
+              "period": {
+                "period": [
+                  "Y"
+                ],
+                "periodMultiplier": 1
+              }
+            },
+            "upperBound": {
+              "period": {
+                "period": [
+                  "Y"
+                ],
+                "periodMultiplier": 5
+              }
+            }
+          }
+        }
+      ],
+      "issuer": [
+        {
+          "issuerType": [
+            {
+              "issuerType": [
+                "SOVEREIGN_CENTRAL_BANK"
+              ]
+            }
+          ]
+        }
+      ],
+      "treatment": {
+        "isIncluded": true,
+        "valuationTreatment": {
+          "haircutPercentage": 0.015
+        }
+      }
+    }
+  ]
+}
