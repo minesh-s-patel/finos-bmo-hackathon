@@ -20,9 +20,9 @@
       "treatment": {
         "isIncluded": true,
         "valuationTreatment": {
-          "haircutPercentage": 
+          "haircutPercentage": [
             0
-          
+          ]
         }
       }
     }
