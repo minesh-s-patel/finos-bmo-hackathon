@@ -52,7 +52,7 @@
       "treatment": {
         "isIncluded": true,
         "valuationTreatment": {
-          "haircutPercentage": 0.015
+          "haircutPercentage": 0.15
         }
       }
     }
