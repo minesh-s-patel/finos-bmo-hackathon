@@ -24,3 +24,19 @@ High level plan
 5. Create a custom app directly
 6. Figure out how to add create an app and make a hello world window
 7. Integrate the TC from steps 1-3 and add into the UI
+
+Mockup of a UI
+==============
+
+![image](https://user-images.githubusercontent.com/19842097/236203593-cd7e5b44-b0b1-4782-bba5-24ad490aef54.png)
+
+Idea
+
+All the schdules (the JSON files) and displayed as summaries on the left
+On the right, we have 4 text boxes to inout data
+Use case 1 can be entered here
+The results are shown on the bottom right
+
+
+
+
