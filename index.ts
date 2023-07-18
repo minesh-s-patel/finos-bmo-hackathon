@@ -159,10 +159,10 @@ export function solveUsecase(
 
   console.log(
     'Q: Is an ' +
-      assetCountryOfOrigin.toLowerCase().replace("_", " ") + ' ' + assetType.toLowerCase().replace("_", " ") +  ' ' + (issuerType ?  "issued by " + issuerType?.toLowerCase().replace("_", " ") : "") + ' with ' + maturity +  ' years remaining maturity eligible?'
+      assetCountryOfOrigin.toLowerCase().replace("_", " ") + ' ' + assetType.toLowerCase().replace("_", " ") +  ' ' + (issuerType ?  "issued by " + issuerType?.toLowerCase().replace("_", " ") : "") + ' with ' + (maturity ? maturity : '1') +  ' years remaining maturity eligible?'
   );
 
-  console.log(usecase1Answer.length === 0 ? 'No' : 'Yes');
+//   console.log(usecase1Answer.length === 0 ? 'No' : 'Yes');
   if (usecase1Answer.length === 0) {
     console.log('A: No');
   } else {
@@ -172,7 +172,7 @@ export function solveUsecase(
   }
 }
 
-//schedules.forEach(x => console.log(toReadable(x)));
+// schedules.forEach(x => console.log(toReadable(x)));
 
 console.log('use case 1');
 solveUsecase('EU', 'DEBT SECURITY', 'SOVEREIGN_CENTRAL_BANK', 4);
